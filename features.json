@@ -1,0 +1,443 @@
+{
+  "generated_at": "2026-08-09T19:45:57+00:00",
+  "gdd_path": "Docs\\GDD.md",
+  "sections": [
+    {
+      "number": 1,
+      "name": "Overview",
+      "line": 12
+    },
+    {
+      "number": 2,
+      "name": "Story & Lore",
+      "line": 61
+    },
+    {
+      "number": 3,
+      "name": "Driving & Controls",
+      "line": 224
+    },
+    {
+      "number": 4,
+      "name": "Passenger Systems",
+      "line": 268
+    },
+    {
+      "number": 5,
+      "name": "The Map",
+      "line": 323
+    },
+    {
+      "number": 6,
+      "name": "Shift Types",
+      "line": 345
+    },
+    {
+      "number": 7,
+      "name": "UI",
+      "line": 374
+    },
+    {
+      "number": 8,
+      "name": "Scoring and Economy",
+      "line": 510
+    },
+    {
+      "number": 9,
+      "name": "Asset Needs",
+      "line": 688
+    },
+    {
+      "number": 10,
+      "name": "AI Dev Pipeline",
+      "line": 704
+    },
+    {
+      "number": 11,
+      "name": "Target platform and pricing",
+      "line": 769
+    },
+    {
+      "number": 12,
+      "name": "Marketing",
+      "line": 775
+    },
+    {
+      "number": 13,
+      "name": "Risks",
+      "line": 780
+    },
+    {
+      "number": 14,
+      "name": "Development Phases Plan \u2014 7-Week Sprint",
+      "line": 790
+    }
+  ],
+  "features": [
+    {
+      "id": "FEAT-dialogue-generators",
+      "name": "Dialogue Generators",
+      "status": "DONE",
+      "status_raw": "Completed",
+      "evidence": [
+        "DT_TransitPSAs",
+        "DT_TownFunFacts",
+        "DT_ShiftOutros",
+        "DT_CivicAppeals"
+      ],
+      "note": "DT_TransitPSAs, DT_TownFunFacts, DT_ShiftOutros, DT_CivicAppeals, DT, BridgeReports",
+      "section_number": 2,
+      "section_name": "Story & Lore",
+      "line_number": 71
+    },
+    {
+      "id": "FEAT-driving-and-controls",
+      "name": "Driving & Controls",
+      "status": "DONE",
+      "status_raw": "Completed",
+      "evidence": [
+        "IMC_MyGame"
+      ],
+      "note": "IMC_MyGame",
+      "section_number": 3,
+      "section_name": "Driving & Controls",
+      "line_number": 224
+    },
+    {
+      "id": "FEAT-camera",
+      "name": "Camera",
+      "status": "DONE",
+      "status_raw": "Completed",
+      "evidence": [
+        "BP_Vehicle"
+      ],
+      "note": "BP_Vehicle",
+      "section_number": 3,
+      "section_name": "Driving & Controls",
+      "line_number": 258
+    },
+    {
+      "id": "FEAT-eventually-remappable-custom-controls-and-color-blind-settings",
+      "name": "Eventually remappable custom controls and color blind settings",
+      "status": "NOT_V1",
+      "status_raw": "Not v1",
+      "evidence": [],
+      "note": "",
+      "section_number": 3,
+      "section_name": "Driving & Controls",
+      "line_number": 261
+    },
+    {
+      "id": "FEAT-spawn-manager",
+      "name": "Spawn Manager",
+      "status": "TODO",
+      "status_raw": "To do",
+      "evidence": [],
+      "note": "",
+      "section_number": 4,
+      "section_name": "Passenger Systems",
+      "line_number": 269
+    },
+    {
+      "id": "FEAT-drop-off-locations-and-misfiring-npcs",
+      "name": "Drop Off Locations and Misfiring NPCs",
+      "status": "TODO",
+      "status_raw": "To do",
+      "evidence": [],
+      "note": "",
+      "section_number": 4,
+      "section_name": "Passenger Systems",
+      "line_number": 274
+    },
+    {
+      "id": "FEAT-npc-thought-icons",
+      "name": "NPC Thought Icons",
+      "status": "DONE",
+      "status_raw": "Completed",
+      "evidence": [
+        "BP_NPC"
+      ],
+      "note": "DT ThoughtMeshes, BP_NPC",
+      "section_number": 4,
+      "section_name": "Passenger Systems",
+      "line_number": 281
+    },
+    {
+      "id": "FEAT-passenger-inventory",
+      "name": "Passenger Inventory",
+      "status": "DONE",
+      "status_raw": "Completed",
+      "evidence": [
+        "BP_Vehicle",
+        "BP_PassengerCycler",
+        "WBP_GameHUD_Bus"
+      ],
+      "note": "BP_Vehicle, BP_PassengerCycler, WBP_GameHUD_Bus",
+      "section_number": 4,
+      "section_name": "Passenger Systems",
+      "line_number": 301
+    },
+    {
+      "id": "FEAT-cycler-widget-to-display-stop-type-location",
+      "name": "Cycler Widget to display stop type location",
+      "status": "TODO",
+      "status_raw": "To Do",
+      "evidence": [],
+      "note": "",
+      "section_number": 4,
+      "section_name": "Passenger Systems",
+      "line_number": 307
+    },
+    {
+      "id": "FEAT-launching-and-launch-angle",
+      "name": "Launching & Launch Angle",
+      "status": "DONE",
+      "status_raw": "Completed",
+      "evidence": [
+        "BP_Vehicle",
+        "BP_PeopleLauncher"
+      ],
+      "note": "BP_Vehicle, BP_PeopleLauncher",
+      "section_number": 4,
+      "section_name": "Passenger Systems",
+      "line_number": 310
+    },
+    {
+      "id": "FEAT-drop-off-scoring-zones",
+      "name": "Drop-Off Scoring Zones",
+      "status": "TODO",
+      "status_raw": "To Do",
+      "evidence": [],
+      "note": "",
+      "section_number": 4,
+      "section_name": "Passenger Systems",
+      "line_number": 315
+    },
+    {
+      "id": "FEAT-the-map",
+      "name": "The Map",
+      "status": "TODO",
+      "status_raw": "To Do",
+      "evidence": [],
+      "note": "",
+      "section_number": 5,
+      "section_name": "The Map",
+      "line_number": 323
+    },
+    {
+      "id": "FEAT-ui",
+      "name": "UI",
+      "status": "TODO",
+      "status_raw": "To Do",
+      "evidence": [],
+      "note": "add controller focus to UI menus",
+      "section_number": 7,
+      "section_name": "UI",
+      "line_number": 374
+    },
+    {
+      "id": "FEAT-shift-schedule",
+      "name": "Shift Schedule",
+      "status": "DONE",
+      "status_raw": "Completed",
+      "evidence": [
+        "WBP_ShiftSchedule",
+        "DA_ShiftScheduleList"
+      ],
+      "note": "WBP_ShiftSchedule, DA_ShiftScheduleList",
+      "section_number": 7,
+      "section_name": "UI",
+      "line_number": 383
+    },
+    {
+      "id": "FEAT-depot-garage",
+      "name": "Depot Garage",
+      "status": "TODO",
+      "status_raw": "To Do",
+      "evidence": [],
+      "note": "add customization interface and items, then gatelock by transit ladder progress",
+      "section_number": 7,
+      "section_name": "UI",
+      "line_number": 390
+    },
+    {
+      "id": "FEAT-fairweather-psa",
+      "name": "Fairweather PSA",
+      "status": "DONE",
+      "status_raw": "Completed",
+      "evidence": [
+        "WBP_FairweatherPSA"
+      ],
+      "note": "WBP_FairweatherPSA | also: (To do: need background image screen from map when completed)",
+      "section_number": 7,
+      "section_name": "UI",
+      "line_number": 398
+    },
+    {
+      "id": "FEAT-driver-rewards",
+      "name": "Driver Rewards",
+      "status": "TODO",
+      "status_raw": "To do",
+      "evidence": [],
+      "note": "need transit ladder widget page and cosmetics to unlock.  Need to set up customization for depot garage.  Need to hook in lifetime earnings and unlocks",
+      "section_number": 7,
+      "section_name": "UI",
+      "line_number": 403
+    },
+    {
+      "id": "FEAT-achievements",
+      "name": "Achievements",
+      "status": "CUT_FOR_V1",
+      "status_raw": "Cut for v1",
+      "evidence": [],
+      "note": "",
+      "section_number": 7,
+      "section_name": "UI",
+      "line_number": 467
+    },
+    {
+      "id": "FEAT-driver-safety",
+      "name": "Driver Safety",
+      "status": "TODO",
+      "status_raw": "To do",
+      "evidence": [],
+      "note": "add visual diagram for controls for keyboard and controller",
+      "section_number": 7,
+      "section_name": "UI",
+      "line_number": 469
+    },
+    {
+      "id": "FEAT-shift-timer",
+      "name": "Shift Timer",
+      "status": "DONE",
+      "status_raw": "Completed",
+      "evidence": [
+        "WBP_GameHUD_Bus"
+      ],
+      "note": "WBP_GameHUD_Bus",
+      "section_number": 7,
+      "section_name": "UI",
+      "line_number": 480
+    },
+    {
+      "id": "FEAT-fare-balance",
+      "name": "Fare Balance",
+      "status": "TODO",
+      "status_raw": "To Do",
+      "evidence": [],
+      "note": "",
+      "section_number": 7,
+      "section_name": "UI",
+      "line_number": 484
+    },
+    {
+      "id": "FEAT-passenger-quota",
+      "name": "Passenger Quota",
+      "status": "TODO",
+      "status_raw": "To Do",
+      "evidence": [],
+      "note": "",
+      "section_number": 7,
+      "section_name": "UI",
+      "line_number": 486
+    },
+    {
+      "id": "FEAT-repair-budget-remaining",
+      "name": "Repair Budget Remaining",
+      "status": "DONE",
+      "status_raw": "Completed",
+      "evidence": [
+        "WBP_GameHUD_Bus",
+        "DA_ShiftScheduleList"
+      ],
+      "note": "WBP_GameHUD_Bus, DA_ShiftScheduleList",
+      "section_number": 7,
+      "section_name": "UI",
+      "line_number": 490
+    },
+    {
+      "id": "FEAT-occupancy-warning-notifications",
+      "name": "Occupancy Warning Notifications",
+      "status": "TODO",
+      "status_raw": "To Do",
+      "evidence": [],
+      "note": "",
+      "section_number": 7,
+      "section_name": "UI",
+      "line_number": 494
+    },
+    {
+      "id": "FEAT-presentation-dialogue",
+      "name": "Presentation Dialogue",
+      "status": "DONE",
+      "status_raw": "Completed",
+      "evidence": [
+        "DT_TransitPSAs",
+        "DT_TownFunFacts",
+        "DT_ShiftOutros",
+        "DT_CivicAppeals"
+      ],
+      "note": "DT_TransitPSAs, DT_TownFunFacts, DT_ShiftOutros, DT_CivicAppeals, DT, BridgeReports",
+      "section_number": 7,
+      "section_name": "UI",
+      "line_number": 499
+    },
+    {
+      "id": "FEAT-currency-values",
+      "name": "Currency Values",
+      "status": "TODO",
+      "status_raw": "To Do",
+      "evidence": [],
+      "note": "",
+      "section_number": 8,
+      "section_name": "Scoring and Economy",
+      "line_number": 511
+    },
+    {
+      "id": "FEAT-shift-timer-and-quota-definitions",
+      "name": "Shift Timer and Quota Definitions",
+      "status": "DONE",
+      "status_raw": "Completed",
+      "evidence": [
+        "DA_ShiftScheduleList"
+      ],
+      "note": "DA_ShiftScheduleList",
+      "section_number": 8,
+      "section_name": "Scoring and Economy",
+      "line_number": 528
+    },
+    {
+      "id": "FEAT-target-scoring",
+      "name": "Target Scoring",
+      "status": "TODO",
+      "status_raw": "To Do",
+      "evidence": [],
+      "note": "",
+      "section_number": 8,
+      "section_name": "Scoring and Economy",
+      "line_number": 532
+    },
+    {
+      "id": "FEAT-passenger-fares",
+      "name": "Passenger Fares",
+      "status": "TODO",
+      "status_raw": "To Do",
+      "evidence": [],
+      "note": "",
+      "section_number": 8,
+      "section_name": "Scoring and Economy",
+      "line_number": 554
+    },
+    {
+      "id": "FEAT-city-destruction",
+      "name": "City Destruction",
+      "status": "TODO",
+      "status_raw": "To do",
+      "evidence": [],
+      "note": "Need to set up more objects and skeletal mesh destructible actors",
+      "section_number": 8,
+      "section_name": "Scoring and Economy",
+      "line_number": 559
+    }
+  ]
+}
