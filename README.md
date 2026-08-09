@@ -100,4 +100,4 @@ that needs new design decisions to generate.
 **Execution path used: Direct MCP execution**, live against the running Editor via the
 `unreal-mcp` connection (not the copy-paste-prompt or guided-walkthrough paths).
 
-_(Placeholder — fill in after testing in the Editor / PIE.)_
+Yes.  The new data table showed up in game and was populated correctly.  I can now use this data table to drive the scoring logic on the drop off points once they are hooked in.
